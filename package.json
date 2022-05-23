@@ -1,0 +1,19 @@
+{
+  "name": "pairprogrammingcodesherpas",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juliiis/pairProgrammingCodeSherpas.git"
+  },
+  "author": "Julieta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juliiis/pairProgrammingCodeSherpas/issues"
+  },
+  "homepage": "https://github.com/Juliiis/pairProgrammingCodeSherpas#readme"
+}
