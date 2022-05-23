@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Juliiis/pairProgrammingCodeSherpas/issues"
   },
-  "homepage": "https://github.com/Juliiis/pairProgrammingCodeSherpas#readme"
+  "homepage": "https://github.com/Juliiis/pairProgrammingCodeSherpas#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
 }
