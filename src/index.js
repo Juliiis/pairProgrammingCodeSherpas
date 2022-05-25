@@ -1,9 +1,10 @@
 class Nave {
-    constructor(capa, arma, vida, combustible){
+    constructor(capa, arma, vida, combustible, bala){
         this.capa = capa;
         this.arma = arma;
         this.vida = vida;
-        this.combustible = combustible
+        this.combustible = combustible;
+        this.bala = bala;
     }
 
     disparar(){
@@ -15,15 +16,19 @@ class Nave {
     }
 
     quitarVida(){
-        console.log('tienes una vida menos');
+        let bala = true;
+        this.vida = this.vida - 1 
+
+        if(bala === true){
+            console.log(this.vida)
+        }
     }
 
-    desaparecer(){
-        
-    }
+    desaparecer(){}
 }
 
-let nave1 = new Nave('blue', 'metralladora', 5, 9)
-let nave2 = new Nave('roja', 'bomba', 6, 11)
+let nave1 = new Nave('blue', 'metralladora', 5, 9, true)
+let nave2 = new Nave('roja', 'bomba', 6, 11, false)
 
-nave2.disparar()
+nave2.quitarVida()
+
